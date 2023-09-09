@@ -1,6 +1,6 @@
 import { Connection, TravelMethod } from './connection';
 
-export const gameBoardMap: Map<number, Connection[]> = new Map<number, Connection[]>([
+export const board: Map<number, Connection[]> = new Map<number, Connection[]>([
   [
     1,
     [
@@ -1136,7 +1136,7 @@ export const gameBoardMap: Map<number, Connection[]> = new Map<number, Connectio
         travelMethod: TravelMethod.TAXI,
       },
       {
-        toPoint: 14,
+        toPoint: 13,
         travelMethod: TravelMethod.BUS,
       },
       {
@@ -3588,6 +3588,1147 @@ export const gameBoardMap: Map<number, Connection[]> = new Map<number, Connectio
       {
         toPoint: 151,
         travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    151,
+    [
+      {
+        toPoint: 150,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 152,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 165,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 166,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    152,
+    [
+      {
+        toPoint: 151,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 138,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    153,
+    [
+      {
+        toPoint: 152,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 139,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 154,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 167,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 166,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 124,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 154,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 180,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 111,
+        travelMethod: TravelMethod.UNDERGROUND,
+      },
+      {
+        toPoint: 163,
+        travelMethod: TravelMethod.UNDERGROUND,
+      },
+      {
+        toPoint: 185,
+        travelMethod: TravelMethod.UNDERGROUND,
+      },
+      {
+        toPoint: 140,
+        travelMethod: TravelMethod.UNDERGROUND,
+      },
+    ],
+  ],
+  [
+    154,
+    [
+      {
+        toPoint: 139,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 155,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 140,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 140,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 156,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    155,
+    [
+      {
+        toPoint: 154,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 156,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 167,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 168,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    156,
+    [
+      {
+        toPoint: 155,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 140,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 157,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 169,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 140,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 154,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 157,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    157,
+    [
+      {
+        toPoint: 156,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 158,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 170,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 156,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 133,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 142,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 185,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 115,
+        travelMethod: TravelMethod.FERRY,
+      },
+      {
+        toPoint: 194,
+        travelMethod: TravelMethod.FERRY,
+      },
+    ],
+  ],
+  [
+    158,
+    [
+      {
+        toPoint: 157,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 141,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 142,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 159,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    159,
+    [
+      {
+        toPoint: 158,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 170,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 186,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 198,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 172,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    160,
+    [
+      {
+        toPoint: 143,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 128,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 173,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 161,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    161,
+    [
+      {
+        toPoint: 135,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 160,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 174,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 107,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 135,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 128,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 199,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    162,
+    [
+      {
+        toPoint: 136,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 175,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    163,
+    [
+      {
+        toPoint: 146,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 177,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 144,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 176,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 191,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 111,
+        travelMethod: TravelMethod.UNDERGROUND,
+      },
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.UNDERGROUND,
+      },
+    ],
+  ],
+  [
+    164,
+    [
+      {
+        toPoint: 147,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 148,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 178,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 179,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    165,
+    [
+      {
+        toPoint: 149,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 151,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 179,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 180,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 123,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 191,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 180,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    166,
+    [
+      {
+        toPoint: 151,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 183,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 181,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    167,
+    [
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 183,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 168,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 155,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    168,
+    [
+      {
+        toPoint: 155,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 167,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    169,
+    [
+      {
+        toPoint: 156,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    170,
+    [
+      {
+        toPoint: 157,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 185,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 159,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    171,
+    [
+      {
+        toPoint: 175,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 173,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 199,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    172,
+    [
+      {
+        toPoint: 128,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 159,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 187,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    173,
+    [
+      {
+        toPoint: 160,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 174,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 171,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 188,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    174,
+    [
+      {
+        toPoint: 161,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 173,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 175,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    175,
+    [
+      {
+        toPoint: 174,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 171,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 162,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    176,
+    [
+      {
+        toPoint: 177,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 189,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 163,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 190,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    177,
+    [
+      {
+        toPoint: 144,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 163,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 176,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    178,
+    [
+      {
+        toPoint: 164,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 189,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 191,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    179,
+    [
+      {
+        toPoint: 164,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 165,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 191,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    180,
+    [
+      {
+        toPoint: 165,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 181,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 193,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 165,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 190,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    181,
+    [
+      {
+        toPoint: 166,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 180,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 193,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 182,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    182,
+    [
+      {
+        toPoint: 181,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 183,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 195,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    183,
+    [
+      {
+        toPoint: 166,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 167,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 182,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 196,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    184,
+    [
+      {
+        toPoint: 168,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 196,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 197,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 185,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 169,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 180,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 185,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 156,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    185,
+    [
+      {
+        toPoint: 170,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 186,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 157,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 187,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 153,
+        travelMethod: TravelMethod.UNDERGROUND,
+      },
+      {
+        toPoint: 128,
+        travelMethod: TravelMethod.UNDERGROUND,
+      },
+    ],
+  ],
+  [
+    186,
+    [
+      {
+        toPoint: 159,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 185,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 198,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    187,
+    [
+      {
+        toPoint: 172,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 188,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 198,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 128,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 185,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    188,
+    [
+      {
+        toPoint: 128,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 187,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 199,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 173,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    189,
+    [
+      {
+        toPoint: 176,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 178,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 190,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    190,
+    [
+      {
+        toPoint: 191,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 192,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 189,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 176,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 191,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 180,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    191,
+    [
+      {
+        toPoint: 190,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 178,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 179,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 192,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 165,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 163,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 190,
+        travelMethod: TravelMethod.BUS,
+      },
+    ],
+  ],
+  [
+    192,
+    [
+      {
+        toPoint: 191,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 190,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 194,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    193,
+    [
+      {
+        toPoint: 180,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 194,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 181,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    194,
+    [
+      {
+        toPoint: 193,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 192,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 195,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 157,
+        travelMethod: TravelMethod.FERRY,
+      },
+    ],
+  ],
+  [
+    195,
+    [
+      {
+        toPoint: 194,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 182,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 197,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    196,
+    [
+      {
+        toPoint: 183,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 197,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    197,
+    [
+      {
+        toPoint: 196,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 195,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 184,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    198,
+    [
+      {
+        toPoint: 186,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 159,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 187,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 199,
+        travelMethod: TravelMethod.TAXI,
+      },
+    ],
+  ],
+  [
+    199,
+    [
+      {
+        toPoint: 198,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 188,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 171,
+        travelMethod: TravelMethod.TAXI,
+      },
+      {
+        toPoint: 128,
+        travelMethod: TravelMethod.BUS,
+      },
+      {
+        toPoint: 161,
+        travelMethod: TravelMethod.BUS,
       },
     ],
   ],
