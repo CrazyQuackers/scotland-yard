@@ -1,0 +1,46 @@
+<h1 id="title">Scotland Yard</h1>
+<button *ngIf="position !== 0" id="reset-button" type="button" (click)="reset()">Reset</button>
+
+<div id="main">
+  <div *ngIf="position !== 0" id="travel-box">
+    <h2 id="mr-x-moved">Mr. X has moved!</h2>
+    <button type="button" class="travel" id="taxi" (click)="taxi()">
+      Taxi
+    </button>
+    <button type="button" class="travel" id="bus" (click)="bus()">Bus</button>
+    <button
+      type="button"
+      class="travel"
+      id="underground"
+      (click)="underground()"
+    >
+      Underground
+    </button>
+    <br/>
+    <button type="button" class="travel" id="secret" (click)="secret()">
+      <img src="../assets/scotland-yard.png" alt="Secret" id="secret-img" />
+    </button>
+  </div>
+  <div *ngIf="position !== 0" id="locations-box">
+    <h2 id="possible-locations">Mr. X's Possible Locations:</h2>
+    <ul id="locations">
+      <li *ngFor="let location of locations" class="location">
+        {{ location }}
+      </li>
+    </ul>
+  </div>
+  <div id="position-box">
+    <h2 id="enter-position">Enter Mr. X's Position:</h2>
+    <input
+      type="text"
+      id="position"
+      placeholder="Position"
+      [(ngModel)]="positionInput"
+    />
+    <div id="button-box">
+      <button id="submit-btn" type="button" (click)="newPosition()">
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
